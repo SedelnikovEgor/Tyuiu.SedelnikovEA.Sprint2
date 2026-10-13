@@ -31,7 +31,7 @@ namespace Tyuiu.SedelnikovEA.Sprint2.Task3.V4.Lib
                 throw new ArgumentOutOfRangeException(nameof(x), "Функция не определена при x = -8.");
             }
 
-            return res;
+            return Math.Round(res, 3);
         }
     }
 }
